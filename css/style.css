@@ -1,0 +1,717 @@
+/* Configuração fundo da página */
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #8C00E7 0%, #24036C 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de playstation*/
+.fundo-playstation{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #0D5ED1 0%, #07078F 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de switch*/
+.fundo-switch{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #DB0909 0%, #8F0707 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de xbox*/
+.fundo-xbox{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #10B509 0%, #066302 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração padrão de links*/
+a{
+	text-decoration: none;
+}
+
+/* Configuração barra preta */
+header{
+	background: #000000;
+	padding: 10px 0px;
+}
+
+/* Configuração posição do logotipo */
+.barra-superior{
+	position: relative;
+	margin: 0px auto;
+}
+
+/* Configuração tamanho do logtipo */
+.barra-superior > a > img{
+	width: 20%;
+}
+
+/* Posição do menu de navegação dentro da barra preta */
+.barra-superior > nav{
+	text-align: center;
+}
+
+/* Posição dos links na barra */
+.barra-superior > nav li{
+	display: inline;
+}
+
+/* Configuração dos links */
+.barra-superior > nav a{
+	padding: 7px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+/* Configuração dos links se selecionado */
+.barra-superior > nav a:hover{
+	background-color: #8C00E7;
+}
+
+/* Configuração barra branca */
+footer{
+	margin: 0px 0px;
+	width: 100%;
+	text-align: center;
+	background: #FFFFFF;
+	padding: 20px 0px;
+}
+
+/* Configuração da margin para o inicio do texto */
+.barra-inferior{
+	margin: 0px auto;
+}
+
+/* Configuração do espaçamento do texto */
+.barra-inferior > p{
+	padding: 10px 0px;
+}
+
+/* Configuração tamanho da ilustração */
+.ilustracao{
+	padding: 10px 0px;
+	max-width: 15%;
+	max-height: 15%;
+}
+
+/* Configuração da posição das caixas de texto */
+.texto-principal{
+	width: 98%;
+	margin: 1% 1%;
+	background-color: #FFFFFF;
+	min-height: 500px;
+}
+
+/* Configuração da posição e tamanho do título do texto */
+.texto-principal > .titulo-principal{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 30px 0px;
+}
+
+/* Configuração da posição e da separação entre as linhas do texto */
+.texto-principal > p{
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: justify;
+	padding: 10px 0px;
+}
+
+/* Configuração do negrito nas linhas de texto */
+.texto-principal > p > strong{
+	font-weight: bold;
+}
+
+/* Configuração do mapa na caixa de texto */
+.mapa-localizacao{
+	padding: 10px 0px;
+	text-align: center;
+}
+
+/* Configuração do título do formulário de contato */
+.titulo-contato{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Configuração da largura e centralização dos formulários de contato*/
+.form-contato{
+	width: 33%;
+    margin: 0px auto;
+}
+
+/* Configuração da distancia entre os fim dos textos e o inicio do formulário */
+form{
+	margin: 40px 0px;
+}
+
+/* Configuração da distancia entre os fim dos textos e o inicio do formulário */
+form label, form input, form textarea{
+	display: block;
+	width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 10px;
+}
+
+/* Configuração do estilo do botão de envio de email */
+.enviar{
+	width: 30%;
+	margin: 0px auto;
+    padding: 20px 0px;
+    background: #8C00E7;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+/* Configuração do hover do botão */
+.enviar:hover{
+	border-radius: 30px;
+	background: #24036C;
+    transform: scale(1.2);
+}
+
+/* Configuração da disposição dos componentes na página */
+main{
+	display: inline-flex;
+	width: 100%;
+}
+
+/* Configuração do tamanho do menu lateral */
+.menu-lateral{
+	margin: 1% 1%;
+	width: 29%;
+	height: 100%;
+	background-color: #DADEDD;
+}
+
+/* Configuração do item do menu lateral */
+.menu-lateral li{
+	padding: 20px;
+}
+
+/* Configuração do link de item do menu lateral */
+.menu-lateral a{
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Configuração do item do menu lateral ao passar o mouse por cima*/
+.menu-lateral li:hover{
+	background-color: #FFFFFF; 
+}
+
+/* Configuração do expositor de produtos */
+.principal{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #DADEDD;
+	margin-left: 1%;
+	margin: 1% 1%;
+	margin-left: 0px;
+	width: 100%;
+}	
+
+/* Configuração da lista de produtos */
+.anuncio-produto{
+	background-color: #FFFFFF;
+	margin: 5px 5px;
+	margin-bottom: 2.5px;
+	margin-left: 2.5px;
+	width: calc(100%-1px);
+	border: 1px solid #FFFFFF;
+}
+
+/* Configuração da lista de produtos ao passar o mouse por cima */
+.anuncio-produto:hover{
+	border: 1px solid #8C00E7;
+}
+
+/* Configuração do título do produto na lista */
+.titulo-anuncio-produto{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+/* Configuração da imagem do produto na lista */
+.imagem-anuncio-produto{
+	float: left;
+	margin: 10% 10%;
+	width: 40%;
+	max-width: 50%;
+}
+
+/* Configuração do resumo do produto na lista */
+.resumo-anuncio-produto{
+	color: #000000;
+	margin: 0px 50%;
+	padding: 10% 0px;
+	width: 50%;
+}
+
+/* Configuração do preço do produto na lista */
+.resumo-anuncio-produto > p > strong{
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Configuração da imagem na página do produto */
+.ilustracao-produto{
+	float: left;
+	margin: 0px 10%;
+	width: 40%;
+	color: #8D9492;
+}
+
+/* Configuração do zoom da imagem do produto */
+.ilustracao-produto > img:hover{
+	transform: scale(1.5) translate(70px, 100px);
+	width: 100%;
+	text-align: center;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+/* Informações superiores da página do produto */
+.informacoes-produto{
+	margin: 5% 5%;
+}
+
+/* Configuração das informações superiores da página do produto */
+.informacoes-produto > a, .informacoes-produto > p{
+	padding: 10px 10px;
+}
+
+/* Configuração do preço na página do produto */
+.informacoes-produto > p:first-of-type{
+	font-size: 32px;
+	text-decoration: bolder;
+}
+
+/* Configuração das informações de parcelamento na página do produto */
+.informacao-parcelamento{
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Configuração do estilo do botão de contato */
+.botao-contato{
+	width: 30%;
+	margin: 0px auto;
+    padding: 20px 0px;
+    background: #8C00E7;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+/* Configuração do hover do botão de contato*/
+.botao-contato:hover{
+	border-radius: 30px;
+	background: #24036C;
+    transform: scale(1.2);
+}
+
+/* Configurações das margens do texto do anúncio*/
+.caracteristicas-anuncio{
+	padding: 80px 50px;
+	text-align: justify;
+}
+
+/* Configuração das fontes dos subtítulos dos anúncios */
+.caracteristicas-anuncio > .subtitulo-caracteristica{
+	padding: 15px 15px;
+	text-align: justify;
+	font-weight: bold;
+	color: #8C00E7;
+	font-size: 24px;
+}
+
+/* Formatação da tabela do anúncio*/
+tr > th{
+	font-weight: bold;
+}
+
+/* Configuração do vídeo do anúncio*/
+iframe{
+	display: block;
+	margin: 0 auto;
+}
+
+/* LAYOUT PARA DISPOSITIVOS MOVEIS*/
+
+@media screen and (max-width: 640px) {
+
+/* Configuração fundo da página */
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #8C00E7 0%, #24036C 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de playstation*/
+.fundo-playstation{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #0D5ED1 0%, #07078F 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de switch*/
+.fundo-switch{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #DB0909 0%, #8F0707 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração do fundo da página de xbox*/
+.fundo-xbox{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(360deg, #10B509 0%, #066302 100%);
+	background-attachment: fixed;
+}
+
+/* Configuração padrão de links*/
+a{
+	text-decoration: none;
+}
+
+/* Configuração barra preta */
+header{
+	background: #000000;
+	padding: 10px 0px;
+}
+
+/* Configuração posição do logotipo */
+.barra-superior{
+	text-align: center;
+}
+
+/* Configuração tamanho do logtipo */
+.barra-superior > a > img{
+	width: 60%;
+}
+
+/* Posição do menu de navegação dentro da barra preta */
+.barra-superior > nav{
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* Posição dos links na barra */
+.barra-superior > nav li{
+	display: inline;
+}
+
+/* Configuração dos links */
+.barra-superior > nav a{
+	padding: 7px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+/* Configuração dos links se selecionado */
+.barra-superior > nav a:hover{
+	background-color: #8C00E7;
+}
+
+/* Configuração barra branca */
+footer{
+	margin: 0px 0px;
+	width: 100%;
+	text-align: center;
+	background: #FFFFFF;
+	padding: 20px 0px;
+}
+
+/* Configuração da margin para o inicio do texto */
+.barra-inferior{
+	margin: 0px auto;
+}
+
+/* Configuração do espaçamento do texto */
+.barra-inferior > p{
+	padding: 10px 0px;
+}
+
+/* Configuração tamanho da ilustração */
+.ilustracao{
+	padding: 10px 0px;
+	max-width: 15%;
+	max-height: 15%;
+}
+
+/* Configuração da posição das caixas de texto */
+.texto-principal{
+	width: 98%;
+	margin: 1% 1%;
+	background-color: #FFFFFF;
+	min-height: 500px;
+}
+
+/* Configuração da posição e tamanho do título do texto */
+.texto-principal > .titulo-principal{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32px;
+	padding: 30px 0px;
+}
+
+/* Configuração da posição e da separação entre as linhas do texto */
+.texto-principal > p{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	padding: 10px 0px;
+}
+
+/* Configuração do negrito nas linhas de texto */
+.texto-principal > p > strong{
+	font-weight: bold;
+}
+
+/* Configuração do mapa na caixa de texto */
+.mapa-localizacao{
+	text-rendering: none;
+	padding: 10px 0px;
+	max-width: 640px;
+	text-align: center;
+}
+
+/* Configuração do título do formulário de contato */
+.titulo-contato{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Configuração da largura e centralização dos formulários de contato */
+.form-contato{
+	width: 90%;
+    margin: 0px auto;
+    padding-bottom: 5px;
+}
+
+/* Configuração da distancia entre os fim dos textos e o inicio do formulário */
+form{
+	margin: 40px 0px;
+}
+
+/* Configuração da distancia entre os fim dos textos e o inicio do formulário */
+form label, form input, form textarea{
+	display: block;
+	width: 100%;
+    font-size: 16px;
+    margin: 0px 0px 10px;
+}
+
+/* Configuração do estilo do botão de envio de email */
+.enviar{
+	width: 30%;
+	margin: 0px auto;
+    padding: 20px 0px;
+    background: #8C00E7;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+/* Configuração do hover do botão */
+.enviar:hover{
+	border-radius: 30px;
+	background: #24036C;
+}
+
+/* Configuração da disposição dos componentes na página */
+main{
+	display: block;
+}
+
+/* Configuração do tamanho do menu lateral */
+.menu-lateral{
+	margin: 1% 1%;
+	width: 98%;
+	background-color: #DADEDD;
+}
+
+/* Configuração do item do menu lateral */
+.menu-lateral li{
+	padding: 20px;
+}
+
+/* Configuração do link de item do menu lateral */
+.menu-lateral a{
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Configuração do item do menu lateral ao passar o mouse por cima */
+.menu-lateral li:hover{
+	background-color: #FFFFFF; 
+}
+
+/* Configuração do expositor de produtos */
+.principal{
+	display: grid;
+	grid-template-columns: 100%;
+	margin-left: 1%;
+	margin: 1% 1%;
+	margin-left: 0px;
+	width: 100%;
+}	
+
+/* Configuração da lista de produtos */
+.anuncio-produto{
+	background-color: #FFFFFF;
+	margin: 5px 5px;
+	width: calc(100%-1px);
+	border: 1px solid #FFFFFF;
+}
+
+/* Configuração da lista de produtos ao passar o mouse por cima */
+.anuncio-produto:hover{
+	border: 1px solid #8C00E7;
+}
+
+/* Configuração do título do produto na lista */
+.titulo-anuncio-produto{
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+/* Configuração da imagem do produto na lista */
+.imagem-anuncio-produto{
+	float: left;
+	width: 40%;
+}
+
+/* Configuração do resumo do produto na lista */
+.resumo-anuncio-produto{
+	color: #000000;
+	width: 50%;
+}
+
+/* Configuração do preço do produto na lista */
+.resumo-anuncio-produto > p > strong{
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Configuração da imagem na página do produto */
+.ilustracao-produto{
+	width: 90%;
+	color: #8D9492;
+	padding-bottom: 30px;
+}
+
+/* Configuração do tamanho da imagem */
+.ilustracao-produto > img{
+	display: block;
+	width: 80%;
+	text-align: center;
+}
+
+/* Configuração do zoom da imagem do produto */
+.ilustracao-produto > img:hover{
+	transform: scale(1.0);
+	width: 100%;
+	text-align: center;
+	border: 1px solid #000000;
+	border-radius: 10px;
+}
+
+/* Informações superiores da página do produto */
+.informacoes-produto{
+	text-align: center;
+}
+
+/* Configuração das informações superiores da página do produto */
+.informacoes-produto > a, .informacoes-produto > p{
+	padding: 10px 10px;
+}
+
+/* Configuração do preço na página do produto */
+.informacoes-produto > p:first-of-type{
+	font-size: 32px;
+	text-decoration: bolder;
+}
+
+/* Configuração das informações de parcelamento na página do produto */
+.informacao-parcelamento{
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Configuração do estilo do botão de contato */
+.botao-contato{
+	width: 30%;
+	margin: 0px auto;
+    padding: 20px 0px;
+    background: #8C00E7;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+/* Configuração do hover do botão de contato */
+.botao-contato:hover{
+	border-radius: 30px;
+	background: #24036C;
+    transform: scale(1.2);
+}
+
+/* Configurações das margens do texto do anúncio */
+.caracteristicas-anuncio{
+	padding: 30px 30px;
+	text-align: justify;
+}
+
+/* Configuração das fontes dos subtítulos dos anúncios */
+.caracteristicas-anuncio > .subtitulo-caracteristica{
+	padding: 15px 15px;
+	text-align: justify;
+	font-weight: bold;
+	color: #8C00E7;
+	font-size: 24px;
+}
+
+/* Formatação da tabela do anúncio */
+tr > th{
+	font-weight: bold;
+}
+
+/* Configuração do vídeo do anúncio */
+iframe{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+}
